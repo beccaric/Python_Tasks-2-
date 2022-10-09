@@ -57,3 +57,10 @@ for number in range (1,6):
 
 for number in range (2,48,2):
   print(number)
+
+#while LOOP
+again = "yes"
+while again == "yes":
+  print("hello")
+  again=input("Do you want to loop again?")
+  
