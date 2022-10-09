@@ -20,3 +20,33 @@ elif number == "3":
   print ("Correct!")
 else:
   print ("Error")
+
+#Challenge 3 - using logic operators (and)
+age=int(input("How old are you?: "))
+BritishCitizen=input("Are you a British citizen?: ")
+if age>=18 and BritishCitizen == "Yes":
+  print("You are able to vote!")
+else:
+  print("You are either too young or you are not a British Citizen")
+
+
+#Challenge 4 - using logic operators (or)
+number=int(input("Enter a number less than 6:"))
+if number == 1 or number ==3 or number ==5:
+  print("You have entered an odd number!")
+else:
+  print("You have entered an even number!")
+
+#Challenge 5 - using boolean variables and NOT operator
+ShoePrice = float(input("Enter a price: "))
+
+if(ShoePrice <9.99):
+  cheapShoe= True
+else:
+  cheapShoe= False
+
+if(not(cheapShoe)):
+  print("The shoe is expensive")
+else: 
+  print("The shoe is cheap")
+
