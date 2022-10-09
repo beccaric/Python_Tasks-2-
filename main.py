@@ -50,3 +50,10 @@ if(not(cheapShoe)):
 else: 
   print("The shoe is cheap")
 
+
+#For LOOP
+for number in range (1,6):
+  print(number)
+
+for number in range (2,48,2):
+  print(number)
